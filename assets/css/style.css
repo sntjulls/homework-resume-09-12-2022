@@ -1,0 +1,81 @@
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 250%;
+    font-weight: bolder;
+    color:rgb(74, 49, 101);
+    margin-bottom: 1em;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h2 {
+font-size: 150%;
+font-weight: bolder;
+color:rgba(0, 0, 0, 0.719);
+display: flex;
+align-items: center;
+justify-content: center;}
+
+h3 {
+color:rgba(61, 8, 110, 0.882);
+font-size: large;
+font-weight: 600;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    width: 900px;
+}
+
+.description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contacts {
+    display: flex;
+    width: 1000px;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+    margin: 0 -5px;
+}
+
+.contact_email {
+    color: rgb(74, 0, 109);
+    margin: 0 50px;
+    margin-left: 6px;
+}
+
+.contact_phone {
+    color: rgb(74, 0, 109);
+    margin: 0 50px;
+    margin-left: 6px;
+}
+
+.experience_name {
+    color:rgb(11, 11, 150);
+    font-weight: bolder;
+}
+
+.experience_date {
+    min-width: 185px;
+    margin-bottom: 1em;
+}
+
+.experience_company {
+    font-weight: bold; 
+    margin-top: 5px;
+}
